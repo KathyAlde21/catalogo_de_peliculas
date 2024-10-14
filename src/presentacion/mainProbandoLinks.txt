@@ -1,0 +1,17 @@
+/*   
+        Pelicula pelicula1 = new Pelicula("Spiderman");
+        
+        System.out.println("----------------------------------");        
+        IServicioPeliculas servicioPeliculas = new ServicioPeliculasLista();            
+        servicioPeliculas.agregarPelicula(pelicula1);
+        
+        System.out.println("----------------------------------");
+        servicioPeliculas.listarPeliculas();  
+        
+        
+        System.out.println("----------------------------------"); 
+        servicioPeliculas.buscarPelicula(pelicula1);
+        
+        //se puede pero no es lo ideal agregar asi:
+        servicioPeliculas.buscarPelicula(new Pelicula ("Batman"));        
+    */
