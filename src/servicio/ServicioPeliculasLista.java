@@ -36,7 +36,8 @@ public class ServicioPeliculasLista implements IServicioPeliculas{
             System.out.println("No se encontro la pelicula " 
                     + pelicula.getNombre());
         }else {
-            System.out.println("Pelicula " + pelicula.getNombre() 
+            System.out.println("Pelicula " 
+                    + pelicula.getNombre() 
                     + " encontrada en el indice: " 
                     + (indice + 1)); //para que no inicie en 0
         }
